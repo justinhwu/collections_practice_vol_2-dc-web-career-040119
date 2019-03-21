@@ -63,7 +63,7 @@ def organize_schools(array)
   array.each do |a,b|
     b.each do |c,d|
       if location.has_key?(d)
-      location[d] << [a]
+      location[d] << a
       else
       location[d].push(a)
     end
