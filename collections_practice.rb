@@ -67,6 +67,7 @@ def organize_schools(array)
       else
       location[d] << a
     end
+    end
   end
   location
 end
