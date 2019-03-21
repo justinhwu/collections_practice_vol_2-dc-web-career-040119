@@ -65,7 +65,7 @@ def organize_schools(array)
       if location.has_key?(d)
       location[d] = [a]
       else
-      location[d] << a
+      location[d].push(a)
     end
     end
   end
