@@ -62,7 +62,7 @@ def organize_schools(array)
   location = {}
   array.each do |a,b|
     b.each do |c,d|
-      
+      if location.has_key?()
       location[d] = [a]
     end
   end
